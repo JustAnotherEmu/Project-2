@@ -1,0 +1,26 @@
+.background    { background: rgb(52, 166, 251);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(136, 204, 136); }
+.wall          { background: grey;   }
+.pad           { background: green; }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(12, 7, 128); }
+.bullet { background: purple; }
+.player { background: rgb(255, 194, 0); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
